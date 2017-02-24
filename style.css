@@ -1,0 +1,30 @@
+		               /********** paramtre de formulaire d'ajout portion 1 ***********/
+				   
+					#photo{
+	
+	float:left;
+	}
+	#screenshot-but-ton{
+		margin-left:160px;
+		width:150px;
+		height:50px;}
+		
+#f1 canvas{
+	height:240px;
+	width:250px;
+	margin:2px;}
+#shot{
+	width:250px;
+	height:240px;
+	background:#2196f3;
+	margin-left: 20px;
+	border-radius: 3px;}
+	#photo video {
+		
+	width:250px;} 
+					
+					 #f1{
+					 width:250px;
+			        }
+					 
+	

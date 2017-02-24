@@ -1,0 +1,797 @@
+<!-- panel 
+		<div class="panel panel-piluku">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					SIGNES FONCTIONNELS EN RAPPORT AVEC LES DIFFERENTS APPAREILS
+					<span class="panel-options">
+						<a href="#" class="panel-refresh">
+							<i class="icon ti-reload"></i>
+						</a>
+						<a href="#" class="panel-minimize">
+							<i class="icon ti-angle-up"></i>
+						</a>
+						<a href="#" class="panel-close">
+							<i class="icon ti-close"></i>
+						</a>
+					</span>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<div class="tree well">
+					<ul>
+					 <form method="post" action="verif.php">
+					 
+						<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Maladie</span> <a href=""></a>
+										
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input  id="c16" type="checkbox" style="display: inherit;">Date d'apparition<input  id="t16" name="dateapparition"  style="display: none;" type="date"  class="form-control"></span> <a href=""></a>
+									
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="circonstanceapparition"  type="checkbox" style="display: inherit;">Circonstance d'apparition</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="caracterescliniques"  type="checkbox" style="display: inherit;">Caractères cliniques</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="caracteresevolutifs"  type="checkbox" style="display: inherit;">Caractères évolutifs</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="signesaccompagnateurs"  type="checkbox" style="display: inherit;">Signes accompagnateurs</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Etat général</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="amaigrissement"  type="checkbox" style="display: inherit;">Amaigrissement</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="prisedepoids"  type="checkbox" style="display: inherit;">Prise de poids</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="appetit"  type="checkbox" style="display: inherit;">Appétit</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="fievre"  type="checkbox" style="display: inherit;">Fièvres</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="asthenie"  type="checkbox" style="display: inherit;">Asthénie</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="EG_autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Teguments</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Alrération des phanères</span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Peau <input  id="t1" style="display: none;"name="peau" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Cheveux<input  id="t2" style="display: none;"name="cheveux" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input   id="c3" type="checkbox" style="display: inherit;">Poils<input  id="t3" style="display: none;" name="poils"  type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input  id="c4"  type="checkbox" style="display: inherit;">Ongles<input  id="t4" style="display: none;" name="ongles"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input    id="c5"  type="checkbox" style="display: inherit;">Dents<input  id="t5" style="display: none;" name="dents"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="TG_autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Tête</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> -- </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Céphalées <input  id="t1" style="display: none;"name="peau" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Vertiges<input  id="t2" style="display: none;"name="cheveux" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Yeux </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Amblyopie <input  id="t1" style="display: none;"name="amblyopie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Amaurose<input  id="t2" style="display: none;"name="amaurose" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Diplopie <input  id="t1" style="display: none;"name="diplopie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Système Iacrymal<input  id="t2" style="display: none;"name="systemeiacrymal" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Inflammation <input  id="t1" style="display: none;"name="inflammation" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Lunette de vue<input  id="t2" style="display: none;"name="lunettedevue" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Oreilles </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Hypoacousie <input  id="t1" style="display: none;"name="hypoacousie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Bourdonnements<input  id="t2" style="display: none;"name="bourdonnements" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Nez </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Anosmie <input  id="t1" style="display: none;"name="anosmie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Obstruction<input  id="t2" style="display: none;"name="obstruction" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Epistaxis <input  id="t1" style="display: none;"name="epistaxis" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Corysa<input  id="t2" style="display: none;"name="corysa" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Ecoulements <input  id="t1" style="display: none;"name="ecoulements" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Bouche </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Douleur des gencives ou des dents <input  id="t1" style="display: none;"name="douleurgenciveetdents" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Saignement ou ulcération de la muqueuse<input  id="t2" style="display: none;"name="saignementmuqueuse" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Carie dentaire <input  id="t1" style="display: none;"name="cariedentaire" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Gorge </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Dysphagie <input  id="t1" style="display: none;"name="dysphagie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="TG_autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Seins</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="douleur"  type="checkbox" style="display: inherit;">Douleur</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="ecoulement"  type="checkbox" style="display: inherit;">Ecoulement</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="calactorrhée"  type="checkbox" style="display: inherit;">Calactorrhée</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="tensionmammaire"  type="checkbox" style="display: inherit;">Tension mammaire</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Respiratoire</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="douleur"  type="checkbox" style="display: inherit;">Douleur</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="dyspnee"  type="checkbox" style="display: inherit;">Dyspnées</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="wheezing"  type="checkbox" style="display: inherit;">Wheezing</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="hemoptysie"  type="checkbox" style="display: inherit;">Hémoptysie</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="crachats"  type="checkbox" style="display: inherit;">Crachat (nature, quantité et qualité)</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Cardiovasculaire</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="palpitations"  type="checkbox" style="display: inherit;">Palpitations, précordialgies, syncopes</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="dyspneedeffort"  type="checkbox" style="display: inherit;">Dyspnée d'effort</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="dyspneededecubitus"  type="checkbox" style="display: inherit;">Dyspnée de décubitus</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="dyspneeparoxystique"  type="checkbox" style="display: inherit;">Dyspnée paroxystique</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="claudicationintermittente"  type="checkbox" style="display: inherit;">Claudication intermittente</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="perimetredemarche"  type="checkbox" style="display: inherit;">Périmetre de marche</span> <a href=""></a>
+										
+											</li>
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> Digestive</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="troubledutransit"  type="checkbox" style="display: inherit;">Trouble du transit</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="hemoragiesdigestives"  type="checkbox" style="display: inherit;">Hémoragies digestives</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="douleurs"  type="checkbox" style="display: inherit;">Douleurs</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="ictere"  type="checkbox" style="display: inherit;">Ictère</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+											
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Urinaire</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="coliquenephretique"  type="checkbox" style="display: inherit;">Colique néphrétique (date, siège, émission de calcul, nature)</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="lombalgies"  type="checkbox" style="display: inherit;">Lombalgies</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="douleurs"  type="checkbox" style="display: inherit;">Hématurie macroscopique (date, type, caillots)</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="ictere"  type="checkbox" style="display: inherit;">Dysurie, diminution de la force du jet, incontinence d'urine, signe de reflux, pollakiurie, nycturie</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+											
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Génitale</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Homme </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Libido <input  id="t1" style="display: none;"name="libido" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Puissance sexuelle<input  id="t2" style="display: none;"name="puissancesexuelle" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Ecoulement<input  id="t2" style="display: none;"name="ecoulement" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Ejaculation prématurée<input  id="t2" style="display: none;"name="ejaculationprematuree" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Ejaculation rétrograde<input  id="t2" style="display: none;"name="ejaculationretrograde" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Erection nocturne<input  id="t2" style="display: none;"name="erectionnocturne" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Femme </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Leucorrhées <input  id="t1" style="display: none;"name="leucorrhées" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Dysménorrhée<input  id="t2" style="display: none;"name="dysmenorrhee" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Dyspareunte <input  id="t1" style="display: none;"name="dyspareunte" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Métrorragies<input  id="t2" style="display: none;"name="metrorragies" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input     id="c6" type="checkbox" style="display: inherit;">Autres<input  id="t6" style="display: none;" name="autres"   type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Neuromusculaire</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="paralysie"  type="checkbox" style="display: inherit;">Paralysie</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="incoordination"  type="checkbox" style="display: inherit;">Incoordination</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="troublessensitifs"  type="checkbox" style="display: inherit;">Troubles sensitifs subjectifs</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="mouvementsanormaux"  type="checkbox" style="display: inherit;">Mouvements anormaux</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="modificationdémarche"  type="checkbox" style="display: inherit;">Modification de la démarche</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="perteconnaissance"  type="checkbox" style="display: inherit;">Perte de connaissance</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="convuisions"  type="checkbox" style="display: inherit;">Convuisions</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="tetanie"  type="checkbox" style="display: inherit;">Tétanie</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="autres"  type="checkbox" style="display: inherit;">Autres</span> <a href=""></a>
+										
+											</li>
+											
+										</ul>
+								</li>
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Allergie</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> -- </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Asthme <input  id="t1" style="display: none;"name="asthme" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Hume de foins<input  id="t2" style="display: none;"name="humedefoins" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Urticaire<input  id="t2" style="display: none;"name="urticaire" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Eczéma<input  id="t2" style="display: none;"name="eczema" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Allergie médicamenteuse<input  id="t2" style="display: none;"name="eczema" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+								</li>
+								
+										
+									</ul>
+								</li>
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Hemathologique</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="ecchymose"  type="checkbox" style="display: inherit;">Ecchymose</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="hemoragies"  type="checkbox" style="display: inherit;">Hémoragies</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="purpura"  type="checkbox" style="display: inherit;">Purpura</span> <a href=""></a>
+										
+											</li>
+											
+											
+										</ul>
+								</li>
+								
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Endocrienne</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									
+												<span class="great-grandchild"><input name="thermophobie"  type="checkbox" style="display: inherit;">Thermophobie</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="friiosite"  type="checkbox" style="display: inherit;">Friiosité</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="tremblement"  type="checkbox" style="display: inherit;">Tremblement</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="hypersudation"  type="checkbox" style="display: inherit;">Hypersudation</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="hyposudation"  type="checkbox" style="display: inherit;">Hyposudation</span> <a href=""></a>
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="polyurie"  type="checkbox" style="display: inherit;">Polyurie</span> <a href=""></a>
+										
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="polydispie"  type="checkbox" style="display: inherit;">Polydispie</span> <a href=""></a>
+											
+											</li>
+											<li>
+									
+												<span class="great-grandchild"><input name="polyphagie"  type="checkbox" style="display: inherit;">Polyphagie</span> <a href=""></a>
+											</li>
+											
+										</ul>
+								</li>
+								
+								
+								<li>
+									<span class="parent"><i class="fa fa-folder-open"></i> S. Locomoteutr</span> <a href=""></a>
+										<ul>
+								
+											<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Douleur rachidienne </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Etage <input  id="t1" style="display: none;"name="etage" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Type </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Mecanique <input  id="t1" style="display: none;"name="typemecanique" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											
+											<span class="greatgrand-grandchild"><input    id="c2" type="checkbox" style="display: inherit;">Infammatoire<input  id="t2" style="display: none;"name="typeinflammatoire" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+										    
+										</li>
+										
+									</ul>
+								</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Douleur articulaire </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Ancienneté <input  id="t1" style="display: none;"name="anciennete" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Topographie <input  id="t1" style="display: none;"name="topographie" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Rythme <input  id="t1" style="display: none;"name="rythme" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Douleur musculaire </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Proximale <input  id="t1" style="display: none;"name="proximale" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Diffuse <input  id="t1" style="display: none;"name="diffuse" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<span class="great-grandchild"><i class="fa fa-chevron-circle-up"></i> Douleur radiculaire </span> <a href=""></a>
+									<ul>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Cervicobrachiale <input  id="t1" style="display: none;"name="cervicobrachiale" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Lombosciatique <input  id="t1" style="display: none;"name="lombosciatique" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										<li>
+											<span class="greatgrand-grandchild"><input  id="c1" type="checkbox" style="display: inherit;">Claudication intermittente <input  id="t1" style="display: none;"name="claudicationintermittente" type="text" id="inline-suggestions" class="form-control"></span> <a href=""></a>
+											
+										</li>
+										
+									</ul>
+								</li>
+									</ul>
+								</li>
+								
+											
+										</ul>
+								</li>
+								
+						</form>	
+					</ul>
+				</div>
+			</div>
+		</div>
+		 panel -->
+		
+		
